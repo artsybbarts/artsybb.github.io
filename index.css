@@ -1,0 +1,64 @@
+.banner {
+    background-color: hotpink;
+    color: gray;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#small-artsybb {
+    height: 100px;
+    weight: 100px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+#artsybb {
+    color: hotpink;
+    font-size: 100px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a.blue {
+    color: blue;
+}
+
+#artsybbs ul {
+    list-style-type: none;  
+    
+    color:hotpink;
+}
+
+.avatar {
+    background-image: url(../images/0104.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.artsybbsection {
+    padding: 20px 50px;
+}
